@@ -34,4 +34,74 @@ html {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 7rem;
+    background-color: #E0d4;
+}
+
+.box{
+  border-radius: 2rem;
+  background-color: white;
+  align-items: center;
+}
+
+.image{
+  object-fit: cover;
+}
+
+.content{
+  padding: 2rem;
+}
+
+h2{
+  font-size: 0.9rem;
+  color: #9c6644;
+  font-weight: 500;
+}
+
+h1{
+  color: #432818;
+  margin-top: 1rem;
+}
+
+.info{
+  margin-top: 1.3rem;
+  color: #432818;
+  font-weight: 00;
+
+}
+
+.pricing{
+  font-weight: 700;
+  color: #9c6644;
+  font-size: 3rem;
+  margin-top: 1rem;
+}
+
+.btn{
+  display:block;
+    background-color: #432818;
+    color: black;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    margin-top: 1rem;
+}
+
+main a:hover{
+  text-decoration: underline;
+  color: chocolate;
+}
+
+.image{
+  width: 400px;
+  height: 250px;
+  border-top-right-radius: 2rem;
+  border-top-left-radius: 2rem;
+  object-fit: cover;
 }
